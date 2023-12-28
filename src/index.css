@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad&family=Alata&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root,
+.app {
+	height: 100%;
+	width: 100%;
+	font-family: "DM Sans", sans-serif;
+	background-color: #f7f5f0;
+}
+
+h4 {
+	font-size: large;
+	font-weight: bold;
+}
+
+.header {
+	background: url("./assets/bg_header.png");
+	background-size: cover;
+
+}
+
+/* .header > div {
+	position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+} */
+
+.our_philosophy {
+	background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.9)), url("./assets/OurPhilosophy.png");
+	background-size: cover;
+	/* filter: brightness(60%); */
+}
