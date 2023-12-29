@@ -10,7 +10,7 @@ body,
 .app {
 	height: 100%;
 	width: 100%;
-	font-family: "DM Sans", sans-serif;
+	font-family: "Afacad", sans-serif;
 	background-color: #f7f5f0;
 }
 
@@ -35,5 +35,4 @@ h4 {
 .our_philosophy {
 	background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.9)), url("./assets/OurPhilosophy.png");
 	background-size: cover;
-	/* filter: brightness(60%); */
 }

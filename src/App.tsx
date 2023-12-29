@@ -18,7 +18,7 @@ const App = () => {
             </Link>
 
           {/* right side */}
-          <div className='flex items-center justify-between gap-8 text-lg'>
+          <div className={`${flexBetween} gap-8 text-xl`}>
             <Link 
               className='hover:text-accent'
               to="/"
@@ -55,7 +55,7 @@ const App = () => {
       </nav>
 
       <Routes>
-        <Route path="/" exact element={<Home/>} />
+        <Route path="/" element={<Home/>} />
         <Route path="/aboutus" element={<AboutUs/>} />
         <Route path="/projects" element={<Projects/>} />
         <Route path="/contactus" element={<ContactUs/>} />

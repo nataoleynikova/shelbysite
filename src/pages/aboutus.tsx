@@ -15,7 +15,7 @@ const AboutUs: React.FC = () => {
 				</div>
 				<div className="flex flex-row w-5/6 ml-28">
 					<img 
-						className="rounded-md"
+						className="rounded-md brightness-75"
 						src={OurWorkImg} 
 						alt="OurWorkImg" 
 					/>
@@ -29,10 +29,10 @@ const AboutUs: React.FC = () => {
 							visible: {opacity: 1, x: 0}
 						}}
 					>
-						<p className="inline-block text-justify text-lg ml-16 mt-10">
+						<p className="inline-block text-justify text-xl ml-16 mt-10">
 							Our high standard of building has helped us be a part of exceptional projects across the five boroughs. We utilize the latest industry technologies to provide electrical construction of new facilities and spaces in need of remodeling.
 						</p>
-						<p className="inline-block text-justify text-lg ml-16 mt-16">
+						<p className="inline-block text-justify text-xl ml-16 mt-16">
 							We deliver full-service solutions backed by the expertise of our office personnel and experienced electricians on all five boroughs.  You'll find us in major healthcare facilities, complex data centers, out in the solar field, and on job sites of every scope and size.
 						</p>
 					</motion.div>
@@ -45,7 +45,7 @@ const AboutUs: React.FC = () => {
 					<HText>Our Philosophy</HText>
 				</div>
 				<div className="px-16">
-					<p className="text-justify text-lg text-white">
+					<p className="text-justify text-xl text-white">
 						Our high standard of building has helped us be a part of exceptional projects across the five boroughs. We utilize the latest industry technologies to provide electrical construction of new facilities and spaces in need of remodeling.
 					</p>
 				</div>

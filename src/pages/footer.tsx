@@ -30,16 +30,16 @@ const Footer = () => {
 
 						{/* socials */}
 						<div className="mt-16 flex flex-row justify-between">
-							<div className="hover:blur-[1px]">
+							<div className="brightness-75 hover:brightness-100">
 							<a href="https://www.facebook.com/shelbyelectricalnyc" target="_blank">
 									<img 
-										className="w-[33px] h-[33px] rounded-md"
+										className="w-[33px] h-[33px] rounded-md hover:"
 										src={fb_icon} 
 										alt="Facebook icon" 
 									/>
 								</a>
 							</div>
-							<div className="hover:blur-[1px]">
+							<div className="brightness-75 hover:brightness-100">
 								<a href="https://www.instagram.com/shelbyelectrical/" target="_blank">
 									<img 
 										className="w-[33px] h-[33px] rounded-md"
@@ -48,7 +48,7 @@ const Footer = () => {
 									/>
 								</a>
 							</div>
-							<div className="hover:blur-[1px]">
+							<div className="brightness-75 hover:brightness-100">
 								<a href="https://www.linkedin.com/company/shelby-electrical/" target="_blank">
 									<img 
 										className="w-[33px] h-[33px] rounded-md"

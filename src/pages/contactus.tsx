@@ -33,7 +33,7 @@ const ContactUs: React.FC = () => {
 				{/* contacts */}
 
 				<motion.div
-					className="mr-40 bg-[#222222] p-10 text-white rounded-md"
+					className="mr-40 bg-[#222222] p-10 text-white rounded-md text-lg"
 					initial="hidden"
 					whileInView="visible"
 					viewport={{once: true, amount: 0.5}}
@@ -63,7 +63,7 @@ const ContactUs: React.FC = () => {
 					</div>
 
 					<div className="mt-16 flex flex-row justify-between pt-14">
-						<div className="hover:blur-[1px]">
+						<div className="brightness-75 hover:brightness-100">
 						<a href="https://www.facebook.com/shelbyelectricalnyc" target="_blank">
 								<img 
 									className="w-[33px] h-[33px] rounded-md"
@@ -72,7 +72,7 @@ const ContactUs: React.FC = () => {
 								/>
 							</a>
 						</div>
-						<div className="hover:blur-[1px]">
+						<div className="brightness-75 hover:brightness-100">
 							<a href="https://www.instagram.com/shelbyelectrical/" target="_blank">
 								<img 
 									className="w-[33px] h-[33px] rounded-md"
@@ -81,7 +81,7 @@ const ContactUs: React.FC = () => {
 								/>
 							</a>
 						</div>
-						<div className="hover:blur-[1px]">
+						<div className="brightness-75 hover:brightness-100">
 							<a href="https://www.linkedin.com/company/shelby-electrical/" target="_blank">
 								<img 
 									className="w-[33px] h-[33px] rounded-md"
